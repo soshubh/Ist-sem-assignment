@@ -23,7 +23,8 @@ void main()
        if(avg<a[i])
          c++;
      }
+    printf("-------------------------------------\n");     
+     printf("Maximum score : %d\nAverage score : %.2f\nNumber of students score more than average score : %d",max,avg,c);
+    printf("\n-------------------------------------"); 
     
-    printf("\nMaximum score : %d\nAverage score : %.2f\nNumber of students score more than average score : %d",max,avg,c);
-
 }
