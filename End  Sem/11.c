@@ -3,7 +3,7 @@
 // Armstrong numbers in between 100 and 999. (e.g. 153 is an 
 // Armstrong number since 13 + 53 + 33 = 153)
 #include<stdio.h>
-int main()
+void main()
 {
 printf("Question 11 and 4 are same!");
 }
