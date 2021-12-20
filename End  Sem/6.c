@@ -15,10 +15,12 @@ int Prime(int i)
  }
 void main()
  {
+ printf("-------------------------------------\n"); 
    printf("Twin Primes between 1 to 200 are : ");
     for(int i=2;i<=200;i++)
      {
       if(Prime(i)&&Prime(i+2))
       printf("(%d,%d) ",i,i+2);
      }
+  printf("\n-------------------------------------"); 
  }
