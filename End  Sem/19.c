@@ -29,7 +29,7 @@ void main()
           sigma=sigma+ (x[i]*y[i]);
        
          float Numerator=sigma;
-    printf("\nNumerator (SIG(x[i]-x')(y[i]-y'))=%f",Numerator);  
+//     printf("\nNumerator (SIG(x[i]-x')(y[i]-y'))=%f",Numerator);  
     for(i=0;i<n;i++)
      {
      x[i]=x[i]*x[i];
@@ -42,7 +42,7 @@ void main()
       sumy=sumy+y[i];
     }  
    float Denominator = sqrt(sumx*sumy);
-   printf("\nDenominator root(SIG(x[i]-x')^2*SIG(y[i]-y')^2): %f",Denominator);
+//    printf("\nDenominator root(SIG(x[i]-x')^2*SIG(y[i]-y')^2): %f",Denominator);
    double r=(double)Numerator/(double)Denominator;
    printf("\nr = (SIG(x[i]-x')(y[i]-y')/root(SIG(x[i]-x')^2*SIG(y[i]-y')^2) = %lf",r);
 }
